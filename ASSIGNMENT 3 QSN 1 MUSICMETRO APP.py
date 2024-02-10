@@ -1,4 +1,6 @@
 #ASSIGNMENT 3 QUESTION 1 - SHARIF MUKTADIR S374100
+#https://github.com/SharifMuktadirHC/CDU-HIT137-GROUP-160
+
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 
@@ -24,9 +26,9 @@ class MyMusic(tk.Tk):
 
         # List of songs
         self.songs = [
-            Song("Song 1", "Artist 1", "3:30"),
-            Song("Song 2", "Artist 2", "4:15"),
-            Song("Song 3", "Artist 3", "5:00")
+            Song("Summer of '69", "Bryan Adams", "3:30"),
+            Song("Hotel California", "Eagles", "6:30"),
+            Song("It's My Life", "Bon Jovi", "4:15")
         ]
 
         self.create_widgets()
